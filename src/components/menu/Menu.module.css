@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid red;
   margin-top: 3rem;
   margin-left: 1.5rem;
 
@@ -27,7 +26,7 @@
   text-decoration: none;
 }
 
-.menu > a:hover{
-  color: #fff;
+.one{
   background: var(--purple-500);
+  color: var(--white) !important;
 }

@@ -18,8 +18,17 @@ export function Post (){
       <div className={styles.content}>
         <p>Novo post</p>
       </div>
-
-      <hr className={styles.finalContent} />
+      <hr size="0" />
+      <footer>
+      <div className={styles.commentAuthor}>
+          <img className={styles.commentAvatar} src="https://github.com/lucaasaragao.png"/>
+          <div className={styles.comment}>
+            <strong>
+              Lucas Magno
+            </strong>
+          </div>
+        </div>
+      </footer>
 
 
     </article>

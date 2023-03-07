@@ -4,7 +4,7 @@ export function Menu (){
   return(
     <div>
       <div className={styles.menu}>
-        <a href="#"><span></span>Inicio</a>
+        <a href="#" className={styles.one}><span></span>Inicio</a>
         <a href="#"><span></span>Conteudo</a>
         <a href="#"><span></span>Agenda</a>
         <a href="#"><span></span>Membros</a>
