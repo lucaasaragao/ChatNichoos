@@ -2,9 +2,11 @@
   display: flex;
   align-items: center;
   background: var(--white);
-  box-shadow: rgb(0 0 0 / 3%) 0px 0px 2px 2px
+  box-shadow: rgb(0 0 0 / 3%) 0px 0px 2px 2px;
+  min-height: 60%
 }
 
 .header img {
   margin-left: 0.5rem;
+  margin-bottom: 1rem;
 }

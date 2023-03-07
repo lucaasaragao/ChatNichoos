@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@atomos-ui/react": "^2.0.0",
+    "@atomos-ui/tokens": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
